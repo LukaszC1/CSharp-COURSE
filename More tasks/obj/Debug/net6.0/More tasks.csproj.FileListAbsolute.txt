@@ -1,0 +1,15 @@
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\bin\Debug\net6.0\More tasks.exe
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\bin\Debug\net6.0\More tasks.deps.json
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\bin\Debug\net6.0\More tasks.runtimeconfig.json
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\bin\Debug\net6.0\More tasks.dll
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\bin\Debug\net6.0\More tasks.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\More tasks.csproj.AssemblyReference.cache
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\More tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\More tasks.AssemblyInfoInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\More tasks.AssemblyInfo.cs
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\More tasks.csproj.CoreCompileInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\More tasks.dll
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\refint\More tasks.dll
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\More tasks.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\More tasks.genruntimeconfig.cache
+C:\Users\meduz\Documents\CSharp-COURSE\More tasks\obj\Debug\net6.0\ref\More tasks.dll
