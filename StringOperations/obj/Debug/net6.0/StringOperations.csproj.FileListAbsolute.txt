@@ -1,0 +1,15 @@
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\bin\Debug\net6.0\StringOperations.exe
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\bin\Debug\net6.0\StringOperations.deps.json
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\bin\Debug\net6.0\StringOperations.runtimeconfig.json
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\bin\Debug\net6.0\StringOperations.dll
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\bin\Debug\net6.0\StringOperations.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\StringOperations.csproj.AssemblyReference.cache
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\StringOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\StringOperations.AssemblyInfoInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\StringOperations.AssemblyInfo.cs
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\StringOperations.csproj.CoreCompileInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\StringOperations.dll
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\refint\StringOperations.dll
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\StringOperations.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\StringOperations.genruntimeconfig.cache
+C:\Users\meduz\Documents\CSharp-COURSE\StringOperations\obj\Debug\net6.0\ref\StringOperations.dll
