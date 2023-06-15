@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hqxwGjV2g4L2EpLHJI17gu9jttyVHH4ilk39w4+mjVgOMPMP2a8xCPSVdNRUwj8fOpQeUaafgaJYhI6s8ExgRQ==",
+  "dgSpecHash": "EehjHN8Q28vR1GpIkkXOiSVBcr9r/qc6XU9zYkocEOGRlAWgMcCO1TmCZhnBrn1AC57nGO3OhtGU7wFYQj+srA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\meduz\\Documents\\CSharp-COURSE\\Sec6&7\\Sec6&7.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\meduz\\Documents\\CSharp-COURSE\\Sec6&7\\Sec7-8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\meduz\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

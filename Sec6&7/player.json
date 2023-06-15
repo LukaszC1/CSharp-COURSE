@@ -1,0 +1,19 @@
+{
+  "Name": "John",
+  "Level": 1,
+  "HealthPoints": 100,
+  "Statistics": [
+    {
+      "Name": "Strength",
+      "Value": 10
+    },
+    {
+      "Name": "Agility",
+      "Value": 5
+    },
+    {
+      "Name": "Intelligence",
+      "Value": 15
+    }
+  ]
+}

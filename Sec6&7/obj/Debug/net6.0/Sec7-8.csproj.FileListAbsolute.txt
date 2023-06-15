@@ -1,0 +1,17 @@
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\bin\Debug\net6.0\Sec7-8.exe
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\bin\Debug\net6.0\Sec7-8.deps.json
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\bin\Debug\net6.0\Sec7-8.runtimeconfig.json
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\bin\Debug\net6.0\Sec7-8.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\bin\Debug\net6.0\Sec7-8.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.csproj.AssemblyReference.cache
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.AssemblyInfoInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.AssemblyInfo.cs
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.csproj.CoreCompileInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.csproj.CopyComplete
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\refint\Sec7-8.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec7-8.genruntimeconfig.cache
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\ref\Sec7-8.dll

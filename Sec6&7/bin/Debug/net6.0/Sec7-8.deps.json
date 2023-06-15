@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Sec6&7/1.0.0": {
+      "Sec7-8/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "Sec6&7.dll": {}
+          "Sec7-8.dll": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -25,7 +25,7 @@
     }
   },
   "libraries": {
-    "Sec6&7/1.0.0": {
+    "Sec7-8/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -13,3 +13,5 @@ C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\refint\Sec6&7.dll
 C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec6&7.pdb
 C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec6&7.genruntimeconfig.cache
 C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\ref\Sec6&7.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Sec6&7\obj\Debug\net6.0\Sec6&7.csproj.CopyComplete
