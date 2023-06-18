@@ -21,9 +21,60 @@ namespace FirstProject
 
             //Display(googleApps);
             //GetData(googleApps);
-            ProjectData(googleApps);
+            //ProjectData(googleApps);
+            //DivideData(googleApps);
+            //OrderData(googleApps);
+            //DataSetOperation(googleApps);
+            DataVerification(googleApps);
+        }
+        static void DataVerification (IEnumerable<GoogleApp> googleApps)
+        {
+            var weatherApps = googleApps.Where(x =>x.Category == Category.WEATHER);
+            Console.WriteLine("Does every weather app have at least 20 reviews?: " + weatherApps.All(x=>x.Reviews > 20));
+            Console.WriteLine("Any weather apps with 2 million reviews?: " + weatherApps.Any(x => x.Reviews > 2000000));
+
+        }
+        static void DataSetOperation (IEnumerable<GoogleApp> googleApps)
+        {
+            /*var highRatedApps = googleApps.Where(x => (x.Rating > 4.6))
+                .Select(a => a.Category);
+
+            Console.WriteLine("High rated apps cathegories.");
+            Console.WriteLine(string.Join("\n",highRatedApps.Distinct()));*/
+
+
+            var setA = googleApps.Where(x => x.Rating > 4.6 && x.Type == Type.Paid
+            && x.Reviews > 1200);
+
+            var setB = googleApps.Where(x=>x.Name.Contains("Pro") && x.Reviews > 1200
+            && x.Rating > 4.6);
+
+           /* Display(setA);
+            Console.WriteLine("--------------------------------------------------");
+            Display(setB);*/
+
+            var appsUnion = setA.Union(setB);
+            Console.WriteLine("Apps union");
+            Display(appsUnion);
+
+            Console.WriteLine("--------------------------------------------------");
+            var appsIntersect = setA.Intersect(setB);
+            Console.WriteLine("Apps intersect");
+            Display(appsIntersect);
+
+            Console.WriteLine("--------------------------------------------------");
+            var appsExcept = setA.Except(setB);
+            Console.WriteLine("Apps except");
+            Display(appsExcept);
         }
 
+        static void OrderData(IEnumerable<GoogleApp> googleApps)
+        {
+            var orderedApps = googleApps.OrderByDescending(x => x.Rating) //method chaining
+                .ThenBy(x => x.Name)
+                .Take(5);
+            Display(orderedApps);
+        }
         static void ProjectData(IEnumerable<GoogleApp> googleApps)
         {
             var highRatedApps = googleApps.Where(x => (x.Rating > 4.6) && (x.Category == Category.BEAUTY));
@@ -58,6 +109,36 @@ namespace FirstProject
                 highRatedAppsNames.Add(googleApp.Name);
             }*/
 
+        }
+
+        static void DivideData(IEnumerable<GoogleApp> googleApps)
+        {
+            var highRatedApps = googleApps.Where(x => (x.Rating > 4.6) && (x.Category == Category.BEAUTY));
+            //Display(highRatedApps);
+
+            var firstHighRatedApp = highRatedApps.Take(5);  
+            Display(firstHighRatedApp);
+
+            Console.WriteLine("--------------------------------------------------");
+
+            firstHighRatedApp = highRatedApps.TakeWhile(x=> x.Reviews > 1500);
+            Display(firstHighRatedApp);
+
+            Console.WriteLine("--------------------------------------------------");
+
+            firstHighRatedApp = firstHighRatedApp.Skip(1);
+            Display(firstHighRatedApp);
+
+            //SkipWhile -> version with a predicate
+
+            /*foreach (var googleApp in highRatedApps)
+            {
+                firstHighRatedApp.Add(googleApp);
+                if (firstHighRatedApp.Count == 5)
+                    break;
+            }
+
+            Display(firstHighRatedApp);*/
         }
         static void GetData(IEnumerable<GoogleApp> googleApps)
         {
@@ -95,9 +176,7 @@ namespace FirstProject
 
         }
 
-    }
-
-    
+    }    
 }
 
 
