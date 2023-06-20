@@ -15,3 +15,4 @@ C:\Users\meduz\Documents\CSharp-COURSE\LINQ\obj\Debug\net6.0\LINQ.genruntimeconf
 C:\Users\meduz\Documents\CSharp-COURSE\LINQ\obj\Debug\net6.0\ref\LINQ.dll
 C:\Users\meduz\Documents\CSharp-COURSE\LINQ\bin\Debug\net6.0\CsvHelper.dll
 C:\Users\meduz\Documents\CSharp-COURSE\LINQ\obj\Debug\net6.0\LINQ.csproj.CopyComplete
+C:\Users\meduz\Documents\CSharp-COURSE\LINQ\bin\Debug\net6.0\Newtonsoft.Json.dll

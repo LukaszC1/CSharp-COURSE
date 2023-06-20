@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using CsvHelper;
 using CsvHelper.Configuration;
+using LINQ.Person;
+using Newtonsoft.Json;
 
 // ReSharper disable UseFormatSpecifierInInterpolation
 
@@ -25,7 +27,108 @@ namespace FirstProject
             //DivideData(googleApps);
             //OrderData(googleApps);
             //DataSetOperation(googleApps);
-            DataVerification(googleApps);
+            //DataVerification(googleApps);
+            //GroupData(googleApps);
+            //GroupDataOperations(googleApps);
+
+            var people = LoadPeople();
+            var addresses = LoadAddresses();
+
+            var peopleWithAddresses = people.Join(addresses, p => p.Id, a => a.PersonId, (p, a) => new
+            {
+                Person = p,
+                Address = a
+            });
+
+            foreach (var personWithAddress in peopleWithAddresses)
+            {
+                Console.WriteLine(personWithAddress.Person.Name + " " + personWithAddress.Address.Street);
+            }
+            Console.WriteLine("--------------------------------------------------");
+
+            var groupJoin = people.GroupJoin(addresses, p => p.Id, a => a.PersonId,
+
+                (person, addresses) => new { person.Name, Addreses = addresses
+            });
+
+            foreach (var person in groupJoin)
+            {
+                Console.WriteLine(person.Name);
+                foreach (var address in person.Addreses)
+                {
+                    Console.WriteLine(person.Name + " " + address.Street);
+                }
+            }
+        }
+    
+
+        private static List<Person> LoadPeople()
+        {
+            var jsonFullPath = Directory.GetCurrentDirectory();
+            jsonFullPath = Directory.GetParent(jsonFullPath).Parent.FullName;
+            jsonFullPath = Directory.GetParent(jsonFullPath).Parent.FullName;
+            jsonFullPath += @"\LINQ\Person\People.json";
+            var json = File.ReadAllText(jsonFullPath);
+      
+            return JsonConvert.DeserializeObject<List<Person>>(json);
+        }
+
+        private static List<Address> LoadAddresses()
+        {
+            var jsonFullPath = Directory.GetCurrentDirectory();
+            jsonFullPath = Directory.GetParent(jsonFullPath).Parent.FullName;
+            jsonFullPath = Directory.GetParent(jsonFullPath).Parent.FullName;
+            jsonFullPath += @"\LINQ\Person\Addresses.json";
+            var json = File.ReadAllText(jsonFullPath);
+
+            return JsonConvert.DeserializeObject<List<Address>>(json);
+        }
+
+        static void GroupDataOperations(IEnumerable<GoogleApp> googleApps)
+        {
+            var cathegoryGroups = googleApps.GroupBy(x => x.Category);
+
+
+            foreach (var group in cathegoryGroups)
+            {
+                Console.WriteLine("Group " + group.Key);
+                Console.WriteLine(group.Average(g => g.Reviews));
+                Console.WriteLine(group.Min(g => g.Reviews));
+                Console.WriteLine(group.Max(g => g.Reviews));
+                Console.WriteLine("------------------------");
+            }
+
+            Console.WriteLine("--------------------------------------------------");
+
+            var filteredGroups = googleApps.GroupBy(x => x.Category)
+                .Where(g=> g.Min(g=>g.Reviews >= 10));
+
+            foreach (var group in filteredGroups)
+            {
+                Console.WriteLine("Group " + group.Key);
+                Console.WriteLine(group.Average(g => g.Reviews));
+                Console.WriteLine(group.Min(g => g.Reviews));
+                Console.WriteLine(group.Max(g => g.Reviews));
+                Console.WriteLine("------------------------");
+            }
+
+        }
+
+        static void GroupData (IEnumerable<GoogleApp> googleApps)
+        {
+            var cathegoryGroups = googleApps.GroupBy(x => x.Category);
+
+            Console.WriteLine("Number of cathegories: " + cathegoryGroups.Count());
+
+            var video_players = cathegoryGroups.First(g => g.Key == Category.VIDEO_PLAYERS);
+            var apps = video_players.ToList();
+            Display(apps);
+
+            foreach (var group in cathegoryGroups)
+            {
+                Console.WriteLine("Group--------------------");
+                Display(group);
+            }
         }
         static void DataVerification (IEnumerable<GoogleApp> googleApps)
         {
