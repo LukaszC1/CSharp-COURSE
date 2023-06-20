@@ -34,6 +34,36 @@ namespace FirstProject
             var people = LoadPeople();
             var addresses = LoadAddresses();
 
+            //TASK WITH DOING THE LEFT JOIN
+
+            Console.WriteLine("--------------------------------------------------");
+
+            var leftJoin = people.GroupJoin(addresses, p => p.Id, a => a.PersonId, (person, addresses) => new
+            {
+                Person = person,
+                Addresses = addresses
+            }).SelectMany(x => x.Addresses.DefaultIfEmpty(), (person, address) => new
+            {
+                Person = person.Person,
+                Address = address,
+                City = address?.City
+            });
+
+            foreach (var person in leftJoin)
+            {
+                Console.WriteLine(person.Person.Name + " " + person.Address?.Street + " " + person.City);
+            }
+
+            Console.WriteLine("--------------------------------------------------");
+
+
+
+
+
+
+
+            //LEARNING LINQ
+
             var peopleWithAddresses = people.Join(addresses, p => p.Id, a => a.PersonId, (p, a) => new
             {
                 Person = p,
