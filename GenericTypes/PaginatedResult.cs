@@ -6,19 +6,25 @@ using System.Threading.Tasks;
 
 namespace GenericTypes
 {
-    public class Restaurant 
+    public interface IEntity
     {
-    
+        public int Id { get; set; }
     }
 
-    public class User
+    public class Restaurant : IEntity
     {
+        public int Id { get; set; }
+    }
 
+    public class User : IEntity
+    { 
+        public string Name { get; set; }
+        public int Id { get; set; }
     }
 
     public class PaginatedResult<T>
     {
-        public List<T> Results { get; set; }
+        public List<T>? Results { get; set; }
         public int ResultsFrom { get; set; }
         public int ResultsTo { get; set; }
         public int TotalPages { get; set; }
