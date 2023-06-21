@@ -1,0 +1,15 @@
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\bin\Debug\net6.0\Attributes&reflection.exe
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\bin\Debug\net6.0\Attributes&reflection.deps.json
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\bin\Debug\net6.0\Attributes&reflection.runtimeconfig.json
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\bin\Debug\net6.0\Attributes&reflection.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\bin\Debug\net6.0\Attributes&reflection.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\Attributes&reflection.csproj.AssemblyReference.cache
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\Attributes&reflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\Attributes&reflection.AssemblyInfoInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\Attributes&reflection.AssemblyInfo.cs
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\Attributes&reflection.csproj.CoreCompileInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\Attributes&reflection.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\refint\Attributes&reflection.dll
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\Attributes&reflection.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\Attributes&reflection.genruntimeconfig.cache
+C:\Users\meduz\Documents\CSharp-COURSE\Attributes&reflection\obj\Debug\net6.0\ref\Attributes&reflection.dll
