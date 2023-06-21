@@ -1,0 +1,15 @@
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\bin\Debug\net6.0\AsyncProgramming.exe
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\bin\Debug\net6.0\AsyncProgramming.deps.json
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\bin\Debug\net6.0\AsyncProgramming.runtimeconfig.json
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\bin\Debug\net6.0\AsyncProgramming.dll
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\bin\Debug\net6.0\AsyncProgramming.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\AsyncProgramming.csproj.AssemblyReference.cache
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\AsyncProgramming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\AsyncProgramming.AssemblyInfoInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\AsyncProgramming.AssemblyInfo.cs
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\AsyncProgramming.csproj.CoreCompileInputs.cache
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\AsyncProgramming.dll
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\refint\AsyncProgramming.dll
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\AsyncProgramming.pdb
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\AsyncProgramming.genruntimeconfig.cache
+C:\Users\meduz\Documents\CSharp-COURSE\AsyncProgramming\obj\Debug\net6.0\ref\AsyncProgramming.dll
